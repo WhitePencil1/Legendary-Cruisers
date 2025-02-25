@@ -11,27 +11,9 @@ export default function Catalogpage() {
                     <ul className="sidebar-list">
                         <li><input type="checkbox"/>Street</li>
                         <li><input type="checkbox"/>Sportster</li>
-                        <li>
-                            <div><input type="checkbox"/>Softail</div>
-                            <ul className="sidebar-sublist">
-                                <li><input type="checkbox"/> Standart </li>
-                                <li><input type="checkbox"/>FXDR114</li>
-                                <li><input type="checkbox"/>Street Bob</li>
-                                <li><input type="checkbox"/>Low Rider</li>
-                                <li><input type="checkbox"/>Fat Bob</li>
-                                <li><input type="checkbox"/>Fat Boy</li>
-                            </ul>
-                        </li>
+                        <li><input type="checkbox"/>Softail</li>
                         <li><input type="checkbox"/>Pan America</li>
-                        <li>
-                            <div><input type="checkbox"/>Touring</div>
-                            <ul className="sidebar-sublist">
-                                <li><input type="checkbox"/>Road King</li>
-                                <li><input type="checkbox"/>Street Glide</li>
-                                <li><input type="checkbox"/>Road Glide</li>
-                                <li><input type="checkbox"/>Ultra Limited</li>
-                            </ul>
-                        </li>
+                        <li><input type="checkbox"/>Touring</li>
                         <li><input type="checkbox"/>CVO</li>
                         <li><input type="checkbox"/>Trike</li>
                     </ul>
