@@ -1,0 +1,37 @@
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-self: center;
+    
+    margin: 50px 50%;
+}
+
+.about-us-welcome {
+    grid-column: span 2;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.dealer-center-header {
+    text-align: start;
+    margin: 0;
+}
+
+.dealer-center {
+    display: grid;
+    grid-template-rows: 2em 4em 3em;
+    
+    /* border: 1px solid black; */
+    
+}
+
+.dealer-center-img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    
+}

@@ -1,0 +1,128 @@
+.showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.product-page {
+    margin: 45px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 26px;
+}
+
+.product-characteristics, .product-characteristics td,
+.product-characteristics th{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.product-image-box {
+    display: flex;
+    justify-content: center;
+}
+
+.product-main-image {
+    width: 90%;
+    min-width: 690px;
+    border-radius: 5%;
+}
+
+.product-title-box {
+    width: 100%;
+    height: 90%;
+}
+
+.product-title {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+
+.product-price {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-parameters-list {
+    padding: 0;
+}
+
+.product-parameter {
+    margin-bottom: 20px;
+}
+
+.product-parameter-value, .product-submit-btn {   
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 10px;
+    color: white;
+    background-color: #9c122a;
+    border: 1px solid silver;
+}
+
+.product-submit-btn {
+    padding: 8px 100px;
+    font-size: 20px;
+}
+
+.btn-clicked {
+    background-color: #a7a7a7;
+    
+}
+
+
+.description-title {
+    margin: 40px -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/modelLine.jpg");
+    height: 60px;
+    color: white;
+}
+
+
+
+.product-characteristics {
+    width: 30%;
+	margin-bottom: 20px;
+    margin-top: 50px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #9c122a;
+	font-size: 15px;
+	background: #fff!important;
+}
+
+.product-characteristics th {
+    font-weight: bold;
+	padding: 5px;
+	background: #9c122a;
+    color: white;
+    text-transform: uppercase;
+	border: none;
+	text-align: center;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #9c122a;
+    text-align: center;
+    vertical-align: center;
+}
+
+.product-characteristics td {
+    text-align: center;
+    padding: 3px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 15px;
+}
+
+.product-characteristics tbody tr:nth-child(even){
+	background: #f8f8f8!important;
+}
+

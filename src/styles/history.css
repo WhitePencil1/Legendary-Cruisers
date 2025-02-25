@@ -1,0 +1,72 @@
+.history-container h2 {
+    margin: 5px 0;
+}
+
+.history-container h4 {
+    margin: 5px 0;
+}
+
+.history-container p, .history-container li {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr;
+    font-family: 'Oswald', sans-serif;
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.history-choice {
+    position: sticky; /* Липкая позиция */
+    top: 20px; /* Фиксация у верхнего края окна */
+    height: fit-content; /* Высота определяется содержимым */
+}
+
+.article-link :hover {
+    color: #9c122a;
+}
+
+.history-picture {
+    width: 500px;
+}
+
+.history-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
+
+}
+
+.history-article img {
+    width: 30vw;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.article-content ul {
+    list-style-type: disc;
+}
+
+.article-content-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color:#862633;
+    margin: 5px 0;
+}
