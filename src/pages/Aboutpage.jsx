@@ -18,7 +18,6 @@ export default function Aboutpage() {
                 <img className="dealer-center-img" src="images/dealerCenters/SamaraDealer.jpg" alt="Dealer center"/>
             </article>
 
-
             <article className="dealer-center">
                 <h2 className="dealer-center-header">
                     Legendary Cruisers Новосибирск
@@ -36,7 +35,6 @@ export default function Aboutpage() {
                 <p className="dealer-center-contacts">Телефон +7 (391) 290-60-70. Email: info@hd-krsk.ru</p>
                 <img className="dealer-center-img" src="images/dealerCenters/KrasnDealer.jpg" alt="Dealer center"/>
             </article>
-
 
             <article className="dealer-center">
                 <h2 className="dealer-center-header">

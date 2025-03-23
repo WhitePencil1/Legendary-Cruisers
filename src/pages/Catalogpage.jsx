@@ -1,7 +1,31 @@
 import '../styles/catalog.css'
-import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import axios from "axios";
+import ProductCard from '../components/ProductCard';
+import ProductModal from '../components/Productmodal';
+
 
 export default function Catalogpage() {
+
+    const [selectedProductId, setSelectedProductId] = useState(null)
+    const [productData, setProductData] = useState(null)
+    const [error, setError] = useState(null)
+    const [loading, setLoading] = useState(null)
+
+    useEffect(() => {
+        axios.get("https://localhost:7001/api/motorcycles/catalog")
+        .then((response) => {
+            setLoading(false)
+            setProductData(response.data);
+        })
+        .catch((error) => {
+            setError(error.message);
+            setLoading(false)
+        });
+    }, []);
+
+    if (loading) return <p>Загрузка...</p>;
+    if (error) return <p>Ошибка: {error}</p>;
     return(
         <main className="catalog">
             <form className="catalog-sidebar">
@@ -54,14 +78,12 @@ export default function Catalogpage() {
                 <button className="sidebar-submit" type="submit">Применить</button>
             </form>
             <div className="catalog-products">
-                <Link to="product" className="product-card-box">
-                    <img src="images/motorcycles/1.webp" alt="product" className="product-card-image"/>
-                    <div className="product-card-info">
-                        <div>Harley-Davidson Softail Slim 2019 (Custom)</div>
-                        <strong>1 900 000&#8381;</strong>
-                    </div>  
-                </Link>
+                {productData && productData.map(product => (
+                    <ProductCard motorcycle={product} key={product.Id} onClick={() => {setSelectedProductId(product.Id)}}/>
+                ))}
             </div>
+
+            {selectedProductId && <ProductModal productId={selectedProductId} onClose={() => setSelectedProductId(null)}/>}
         </main>
     )
 }

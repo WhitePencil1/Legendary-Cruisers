@@ -3,23 +3,39 @@ using System.ComponentModel.DataAnnotations;
 
 namespace API.Models
 {
+    [Table("модели")]
     public class Model
     {
-        [Key]
-        public string Name { get; set; } = string.Empty;
+        [Column("Название")]
+        public string Name { get; set; }
 
-        [ForeignKey("Brand")]
+        [Column("Бренды_ID")]
         public int BrandId { get; set; }
 
-        public Brand? Brand { get; set; }
+        public Brand Brand { get; set; }
 
-        public string? Engine { get; set; }
-        public int? Displacement { get; set; }
-        public int? Length { get; set; }
-        public int? TankCapacity { get; set; }
-        public int? SeatHeight { get; set; }
-        public int? DryWeight { get; set; }
-        public string? FrontTire { get; set; }
-        public string? RearTire { get; set; }
+        [Column("Двигатель")]
+        public string Engine { get; set; }
+
+        [Column("Рабочий объем")]
+        public int EngineVolume { get; set; }
+
+        [Column("Длина")]
+        public int Length { get; set; }
+
+        [Column("Емкость бака")]
+        public int TankCapacity { get; set; }
+
+        [Column("Высота по сиденью")]
+        public int SeatHeight { get; set; }
+
+        [Column("Сухая масса")]
+        public int DryWeight { get; set; }
+
+        [Column("Передняя шина")]
+        public string FrontTire { get; set; }
+
+        [Column("Задняя шина")]
+        public string RearTire { get; set; }
     }
 }

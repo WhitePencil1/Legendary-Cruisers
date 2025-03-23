@@ -1,4 +1,22 @@
-.showcase {
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Затемнение */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+
+/* .showcase {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
@@ -124,5 +142,5 @@
 
 .product-characteristics tbody tr:nth-child(even){
 	background: #f8f8f8!important;
-}
+} */
 

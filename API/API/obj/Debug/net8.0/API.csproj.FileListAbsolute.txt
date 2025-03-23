@@ -51,3 +51,14 @@ D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\runtimes\browser\lib
 D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 D:\Projects\Web\legendary-cruisers\API\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 D:\Projects\Web\legendary-cruisers\API\API\obj\Debug\net8.0\API.csproj.Up2Date
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\MySqlConnector.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

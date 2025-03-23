@@ -1,16 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API.Models
 {
+    [Table("бренды")] // Указываем имя таблицы в БД
     public class Brand
     {
-        [Key]
+        [Column("ID")]
         public int Id { get; set; }
 
-        [Required]
-        [MaxLength(45)]
-        public string Name { get; set; } = string.Empty;
-
-        public ICollection<Model> Models { get; set; } = new List<Model>();
+        [Column("Название")]
+        public string Name { get; set; }
     }
 }

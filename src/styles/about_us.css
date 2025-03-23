@@ -3,9 +3,9 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
     column-gap: 20px;
-    justify-self: center;
-    
-    margin: 50px 50%;
+
+    width: 60%;
+    margin: 50px auto;
 }
 
 .about-us-welcome {
