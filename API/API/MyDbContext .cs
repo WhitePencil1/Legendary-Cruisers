@@ -11,11 +11,7 @@ namespace API
         public DbSet<Motorcycle> Motorcycles { get; set; }
         public DbSet<MotorcycleCard> Card { get; set; }
 
-        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
-        {
-
-        }
-
+        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) {}
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

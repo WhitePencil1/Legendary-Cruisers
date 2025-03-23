@@ -25,7 +25,9 @@ namespace API.Controllers
 
         // GET: api/motorcycles/catalog
         [HttpGet("catalog")]
-        public async Task<ActionResult<IEnumerable<MotorcycleCard>>> GetMotorcycleCards()
+        public async Task<ActionResult<IEnumerable<MotorcycleCard>>> GetMotorcycleCards(
+            [FromQuery] int skip = 0,
+            [FromQuery] int take = 10)  
         {
             var cards = await _context.Motorcycles
                 .Select(m => new MotorcycleCard
@@ -35,8 +37,9 @@ namespace API.Controllers
                     Price = m.Price,
                     Image = m.Image
                 })
+                .Skip(skip) // Пропустить `skip` элементов
+                .Take(take) // Взять `take` элементов
                 .ToListAsync();
-
             return cards;
         }
 
@@ -46,7 +49,10 @@ namespace API.Controllers
         public async Task<IActionResult> GetProduct(int id)
         {
             var motorcycle = await _context.Motorcycles
+                
+                .Include(m => m.Model)
                 .FirstOrDefaultAsync(m => m.Id == id);
+            //.FirstOrDefaultAsync(m => m.Id == id);
             if (motorcycle == null)
             {
                 return NotFound();

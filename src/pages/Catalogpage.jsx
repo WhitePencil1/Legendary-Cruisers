@@ -13,7 +13,7 @@ export default function Catalogpage() {
     const [loading, setLoading] = useState(null)
 
     useEffect(() => {
-        axios.get("https://localhost:7001/api/motorcycles/catalog")
+        axios.get("https://localhost:7001/api/motorcycles/catalog?skip=0&take=6")
         .then((response) => {
             setLoading(false)
             setProductData(response.data);
@@ -79,7 +79,7 @@ export default function Catalogpage() {
             </form>
             <div className="catalog-products">
                 {productData && productData.map(product => (
-                    <ProductCard motorcycle={product} key={product.Id} onClick={() => {setSelectedProductId(product.Id)}}/>
+                    <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
                 ))}
             </div>
 

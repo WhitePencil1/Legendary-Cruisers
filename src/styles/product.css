@@ -6,26 +6,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+
+    overflow: hidden; /* Чтобы фон не скроллился */
+}
+
+.close-btn {
+    width: 20px;
+    position:absolute;
+    
+    right: 20px;
+    top: 10px;
+    
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.close-btn:hover {
+    color: #9c122a;
 }
 
 .modal-content {
     background: white;
-    padding: 20px;
+    padding: 30px;
+    width: 80%;
+    max-width: 70vw;
+    max-height: 80vh;
     border-radius: 10px;
-    min-width: 300px;
-}
-
-
-/* .showcase {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-20px);
+    animation: slideIn 0.3s forwards;
+    position: relative;
+    
+    overflow-y: auto; /* Добавляем вертикальную прокрутку */
+    overflow-x: hidden;
 }
 
 .product-page {
-    margin: 45px;
     font-family: 'Oswald', sans-serif;
     line-height: 26px;
+}
+
+.showcase {
+    display: flex;
+    column-gap: 40px;
+}
+
+.product-image-box {
+    display: flex;
+    width: 100%;
+}
+
+.product-main-image {
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
 }
 
 .product-characteristics, .product-characteristics td,
@@ -33,17 +70,6 @@
     text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
-}
-
-.product-image-box {
-    display: flex;
-    justify-content: center;
-}
-
-.product-main-image {
-    width: 90%;
-    min-width: 690px;
-    border-radius: 5%;
 }
 
 .product-title-box {
@@ -71,6 +97,7 @@
     margin-bottom: 20px;
 }
 
+
 .product-parameter-value, .product-submit-btn {   
     display: inline-block;
     margin-top: 15px;
@@ -90,9 +117,8 @@
     
 }
 
-
 .description-title {
-    margin: 40px -45px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +130,8 @@
 
 
 .product-characteristics {
-    width: 30%;
+    width: 30vw;
+    height: 40vh;
 	margin-bottom: 20px;
     margin-top: 50px;
 	border: 5px solid #fff;
@@ -142,5 +169,4 @@
 
 .product-characteristics tbody tr:nth-child(even){
 	background: #f8f8f8!important;
-} */
-
+}
