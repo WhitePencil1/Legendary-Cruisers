@@ -23,13 +23,56 @@ namespace API.Controllers
             return Ok("Ты подключен");
         }
 
+       
+
         // GET: api/motorcycles/catalog
         [HttpGet("catalog")]
         public async Task<ActionResult<IEnumerable<MotorcycleCard>>> GetMotorcycleCards(
+            [FromQuery] string? search,
+            [FromQuery] List<string>? models,
+            [FromQuery] List<int>? engineVolumes,
+            [FromQuery] int? priceFrom,
+            [FromQuery] int? priceTo,
+            [FromQuery] int? mileageFrom,
+            [FromQuery] int? mileageTo,
             [FromQuery] int skip = 0,
             [FromQuery] int take = 10)  
         {
-            var cards = await _context.Motorcycles
+
+            var query = _context.Motorcycles.AsQueryable();
+
+            if(models != null && models.Any())
+            {
+                query = query.Where(m => models.Contains(m.Model.Name.Trim()));
+            }
+
+            // Фильтр по цене
+            if (priceFrom.HasValue)
+            {
+                query = query.Where(m => m.Price >= priceFrom.Value);
+            }
+            if (priceTo.HasValue)
+            {
+                query = query.Where(m => m.Price <= priceTo.Value);
+            }
+
+            // Фильтр по объему двигателя
+            if (engineVolumes != null && engineVolumes.Any())
+            {
+                query = query.Where(m => engineVolumes.Contains(m.Model.EngineVolume));
+            }
+
+            // Фильтр по пробегу
+            if (mileageFrom.HasValue)
+            {
+                query = query.Where(m => m.Mileage >= mileageFrom.Value);
+            }
+            if (mileageTo.HasValue)
+            {
+                query = query.Where(m => m.Mileage <= mileageTo.Value);
+            }
+
+            var cards = await query
                 .Select(m => new MotorcycleCard
                 {
                     Id = m.Id,

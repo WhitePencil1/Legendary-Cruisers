@@ -16,6 +16,22 @@
     font-weight: lighter;
 }
 
+.sidebar-serach-box {
+    padding: 10px;
+    display: flex;
+}
+
+.sidebar-serach-box img {
+    width: 20px;
+}
+
+.sidebar-search-field {
+    margin-left: 10px;
+    border: 1px solid rgba(192, 192, 192, 0.582);
+    height: 20px;
+    width: 80%;
+}
+
 .sidebar-title {
     font-size: 18px;
     font-weight: normal;
@@ -40,9 +56,6 @@
     border-top: 1px solid rgba(192, 192, 192, 0.582);
 }
 
-.sidebar-filter-category:first-child {
-    border: none;
-}
 
 .sidebar-number-input {
     width: 44%;
