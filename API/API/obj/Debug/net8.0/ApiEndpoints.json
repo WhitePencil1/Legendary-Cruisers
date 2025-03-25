@@ -83,6 +83,22 @@
   },
   {
     "ContainingType": "API.Controllers.MotorcyclesController",
+    "Method": "GetSimilarNames",
+    "RelativePath": "api/Motorcycles/catalog/simNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MotorcyclesController",
     "Method": "Test",
     "RelativePath": "api/Motorcycles/test",
     "HttpMethod": "GET",

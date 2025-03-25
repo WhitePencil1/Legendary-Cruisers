@@ -1,13 +1,14 @@
 ﻿using API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
 
 namespace API.Controllers
 {
 
     [ApiController]
     [Route("api/[controller]")]
-    public class MotorcyclesController : ControllerBase
+    public class MotorcyclesController : Controller
     {
         private readonly MyDbContext _context;
 
@@ -38,8 +39,12 @@ namespace API.Controllers
             [FromQuery] int skip = 0,
             [FromQuery] int take = 10)  
         {
-
             var query = _context.Motorcycles.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(m => m.Name.ToLower().Contains(search.ToLower()));
+            }
 
             if(models != null && models.Any())
             {
@@ -85,6 +90,26 @@ namespace API.Controllers
                 .ToListAsync();
             return cards;
         }
+
+
+
+        [HttpGet("catalog/simNames")]
+        public async Task<IActionResult> GetSimilarNames([FromQuery]string? name) 
+        {
+            var motorcycles = await _context.Motorcycles
+                .Select(m => m.Name)
+                .Where(m => EF.Functions.Like(m!, $"%{name}%"))
+                .ToListAsync();
+
+            if (motorcycles == null || motorcycles.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(motorcycles);
+        }
+
+
+
 
 
         // GET: api/motorcycles/catalog/product/{id}

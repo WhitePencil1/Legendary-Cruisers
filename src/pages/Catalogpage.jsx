@@ -3,9 +3,13 @@ import { useEffect, useState } from 'react'
 import axios from "axios";
 import ProductCard from '../components/ProductCard';
 import ProductModal from '../components/Productmodal';
+import SeatchDatalist from '../components/SearchDatalist';
 
 
 export default function Catalogpage() {
+
+    const PRODUCTS_ON_PAGE = 9;
+    const [pagesCount, setPagesCount] = useState(1);
 
     const [selectedProductId, setSelectedProductId] = useState(null)
     const [productData, setProductData] = useState(null)
@@ -23,6 +27,17 @@ export default function Catalogpage() {
         "mileageFrom" : "",
         "mileageTo" : ""  
     })
+    const [serachValueList, setSearchValueList] = useState(null)
+
+
+    useEffect(() => {
+        axios.get("https://localhost:7001/api/motorcycles/catalog/simNames?name=" + filters.search)
+        .then((response) => {
+            setSearchValueList(response.data)
+        })
+        .catch((error) => console.error("Ошибка загрузки каталога:", error));
+    }, [filters.search])
+
 
     const handleFilterChange = (e) => {
         const { name, value, type, checked} = e.target;
@@ -39,6 +54,7 @@ export default function Catalogpage() {
     const handleReset = (e) => {
         e.preventDefault();
         setFilters({
+            search: "",
             priceFrom: "",
             priceTo: "",
             mileageFrom: "",
@@ -56,7 +72,7 @@ export default function Catalogpage() {
                 .filter(([_, value]) => value !== "" && value !== null) // Убираем пустые значения
                 .map(([key, value]) => [key, Array.isArray(value) ? value : value.toString()])
         );
-    
+        console.log(filters);
         axios.get("https://localhost:7001/api/motorcycles/catalog", {
             params,
             paramsSerializer: (params) => {
@@ -89,21 +105,26 @@ export default function Catalogpage() {
         });
     }, []);
 
+    
     if (loading) return <p>Загрузка...</p>;
     if (error) return <p>Ошибка: {error}</p>;
     return(
         <main className="catalog">
             <form className="catalog-sidebar" onSubmit={handleFiltersSubmit}>
                 <div className="sidebar-serach-box">
-                    <img src="/public/icons/loupe.png" alt="loupe"/>
                     <input 
-                        type="text" 
+                        type="search" 
                         className="sidebar-search-field" 
                         placeholder="Поиск по названию" 
                         name="search"
+                        list="motorcycles_options"
+                        autoComplete="off"
                         value={filters.search}
                         onChange={handleFilterChange}
                     />
+                    <SeatchDatalist id="motorcycles_options" values={serachValueList}/>
+
+                    <img src="/icons/loupe.png" alt="loupe" onClick={handleFiltersSubmit}/>
                 </div>
                 <div className="sidebar-filter-category">
                     <div className="sidebar-title sidebar-models">Модели</div>
@@ -199,11 +220,22 @@ export default function Catalogpage() {
                 <button className="sidebar-submit" type="submit">Применить</button>
                 <button className="sidebar-submit" type="button" onClick={handleReset}>Сбросить</button>
             </form>
+
+
+
             <div className="catalog-products">
                 {productData && productData.map(product => (
                     <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
                 ))}
             </div>
+
+            <ul className="page-number-list">
+                <li><button className='page-number'>1</button></li>
+                <li><button className='page-number'>2</button></li>
+                <li><button className='page-number'>3</button></li>
+                <li><button className='page-number'>4</button></li>
+                <li><button className='page-number'>5</button></li>
+            </ul>
 
             {selectedProductId && <ProductModal productId={selectedProductId} onClose={() => setSelectedProductId(null)}/>}
         </main>
