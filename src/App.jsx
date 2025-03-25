@@ -7,7 +7,7 @@ import Catalogpage from './pages/Catalogpage'
 import Aboutpage from './pages/Aboutpage'
 import Historypage from './pages/Historypage'
 import Cartpage from './pages/Cartpage'
-import Productpage from './pages/Productpage'
+import Createpage from './pages/Createpage'
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <Route path='about' element={<Aboutpage />}/>
           <Route path='history' element={<Historypage />}/>
           <Route path='cart' element={<Cartpage />}/>
-          <Route path='catalog/product' element={<Productpage />}/>
+          <Route path='create' element={<Createpage/>}/>
 
         </Route>
       </Routes>

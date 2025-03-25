@@ -28,7 +28,7 @@ namespace API.Controllers
 
         // GET: api/motorcycles/catalog
         [HttpGet("catalog")]
-        public async Task<ActionResult<IEnumerable<MotorcycleCard>>> GetMotorcycleCards(
+        public async Task<ActionResult<PaginatedResponse<MotorcycleCard>>> GetMotorcycleCards(
             [FromQuery] string? search,
             [FromQuery] List<string>? models,
             [FromQuery] List<int>? engineVolumes,
@@ -36,8 +36,8 @@ namespace API.Controllers
             [FromQuery] int? priceTo,
             [FromQuery] int? mileageFrom,
             [FromQuery] int? mileageTo,
-            [FromQuery] int skip = 0,
-            [FromQuery] int take = 10)  
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 9)  
         {
             var query = _context.Motorcycles.AsQueryable();
 
@@ -77,6 +77,8 @@ namespace API.Controllers
                 query = query.Where(m => m.Mileage <= mileageTo.Value);
             }
 
+            int totalCount = await query.CountAsync();
+
             var cards = await query
                 .Select(m => new MotorcycleCard
                 {
@@ -85,13 +87,20 @@ namespace API.Controllers
                     Price = m.Price,
                     Image = m.Image
                 })
-                .Skip(skip) // Пропустить `skip` элементов
-                .Take(take) // Взять `take` элементов
+                .Skip((page-1) * pageSize) // Пропустить `skip` элементов
+                .Take(pageSize) // Взять `take` элементов
                 .ToListAsync();
-            return cards;
+
+
+            return new PaginatedResponse<MotorcycleCard>
+            {
+                Data = cards,
+                TotalCount = totalCount,
+                Page = page,
+                PageSize = pageSize,
+                TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize)
+            };
         }
-
-
 
         [HttpGet("catalog/simNames")]
         public async Task<IActionResult> GetSimilarNames([FromQuery]string? name) 
@@ -107,8 +116,6 @@ namespace API.Controllers
             }
             return Ok(motorcycles);
         }
-
-
 
 
 

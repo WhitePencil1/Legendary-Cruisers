@@ -1,0 +1,16 @@
+.create-page {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+
+.create-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+}

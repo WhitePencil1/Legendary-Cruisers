@@ -110,19 +110,25 @@
     row-gap: 5px;
 }
 
+
 .page-number-list {
     grid-column-start: 2;
     display: flex;
     justify-content: center;
     column-gap: 20px;
     user-select: none;
+    margin-top: 20px;
 }
 
 .page-number {
-    background-color: #9c122a;
+    background-color: rgb(144, 139, 139);
     color: white;
     border-radius: 100%;
     border-color: rgb(144, 139, 139);
     width: 40px;
     height: 40px;
+}
+
+.cur-page-number {
+    background-color: #9c122a
 }

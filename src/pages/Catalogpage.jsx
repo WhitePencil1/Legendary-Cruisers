@@ -3,20 +3,21 @@ import { useEffect, useState } from 'react'
 import axios from "axios";
 import ProductCard from '../components/ProductCard';
 import ProductModal from '../components/Productmodal';
-import SeatchDatalist from '../components/SearchDatalist';
+import SearchDatalist from '../components/SearchDatalist';
+import PagesList from '../components/PagesList';
 
 
 export default function Catalogpage() {
 
     const PRODUCTS_ON_PAGE = 9;
-    const [pagesCount, setPagesCount] = useState(1);
+    const [curPage, setCurPage] = useState(1);
+    const [pageCount, setPageCount] = useState(0);
 
     const [selectedProductId, setSelectedProductId] = useState(null)
     const [productData, setProductData] = useState(null)
     const [error, setError] = useState(null)
     const [loading, setLoading] = useState(null)
 
-    const take = 6;
 
     const [filters, setFilters] = useState({
         "search" : "",
@@ -28,6 +29,21 @@ export default function Catalogpage() {
         "mileageTo" : ""  
     })
     const [serachValueList, setSearchValueList] = useState(null)
+
+
+    useEffect(() => {
+        axios.get("https://localhost:7001/api/motorcycles/catalog?page=" + curPage + "&pageSize=" + PRODUCTS_ON_PAGE)
+        .then((response) => {
+            setLoading(false);
+            setProductData(response.data.data);
+            setCurPage(1);
+            setPageCount(response.data.totalPages);
+        })
+        .catch((error) => {
+            setError(error.message);
+            setLoading(false)
+        });
+    }, []);
 
 
     useEffect(() => {
@@ -73,7 +89,7 @@ export default function Catalogpage() {
                 .map(([key, value]) => [key, Array.isArray(value) ? value : value.toString()])
         );
         console.log(filters);
-        axios.get("https://localhost:7001/api/motorcycles/catalog", {
+        axios.get("https://localhost:7001/api/motorcycles/catalog?pageSize=" + PRODUCTS_ON_PAGE, {
             params,
             paramsSerializer: (params) => {
                 return Object.entries(params)
@@ -87,23 +103,39 @@ export default function Catalogpage() {
         })
         .then((response) => {
             console.log("Результат запроса:", response.data);
-            setProductData(response.data);
-            // onFilter(response.data); // Передаем данные в родительский компонент
+            setCurPage(1);
+            setPageCount(response.data.totalPages);
+            setProductData(response.data.data);
         })
         .catch((error) => console.error("Ошибка загрузки каталога:", error));
     }
 
-    useEffect(() => {
-        axios.get("https://localhost:7001/api/motorcycles/catalog?skip=0&take=" + take)
-        .then((response) => {
-            setLoading(false)
-            setProductData(response.data);
+    const handleSwitchPage = function(page) {
+        const params = Object.fromEntries(
+            Object.entries(filters)
+                .filter(([_, value]) => value !== "" && value !== null) // Убираем пустые значения
+                .map(([key, value]) => [key, Array.isArray(value) ? value : value.toString()])
+        );
+
+        setCurPage(page);
+        axios.get("https://localhost:7001/api/motorcycles/catalog?pageSize=" + PRODUCTS_ON_PAGE + "&page=" + page, {
+            params,
+            paramsSerializer: (params) => {
+                return Object.entries(params)
+                    .map(([key, value]) =>
+                        Array.isArray(value)
+                            ? value.map((v) => `${key}=${encodeURIComponent(v)}`).join("&")
+                            : `${key}=${encodeURIComponent(value)}`
+                    )
+                    .join("&");
+            }
         })
-        .catch((error) => {
-            setError(error.message);
-            setLoading(false)
-        });
-    }, []);
+        .then((response) => {
+            console.log("Результат смены страницы:", response.data);
+            setProductData(response.data.data);
+        })
+        .catch((error) => console.error("Ошибка загрузки каталога:", error));
+    }
 
     
     if (loading) return <p>Загрузка...</p>;
@@ -122,7 +154,7 @@ export default function Catalogpage() {
                         value={filters.search}
                         onChange={handleFilterChange}
                     />
-                    <SeatchDatalist id="motorcycles_options" values={serachValueList}/>
+                    <SearchDatalist id="motorcycles_options" values={serachValueList}/>
 
                     <img src="/icons/loupe.png" alt="loupe" onClick={handleFiltersSubmit}/>
                 </div>
@@ -167,6 +199,7 @@ export default function Catalogpage() {
                         type="number" 
                         name="priceFrom" 
                         placeholder="от"
+                        min="0"
                         value={filters.priceFrom}
                         onChange={handleFilterChange}
                     />
@@ -176,6 +209,7 @@ export default function Catalogpage() {
                         type="number" 
                         name="priceTo"
                         placeholder="до"
+                        min="0"
                         value={filters.priceTo}
                         onChange={handleFilterChange}
                     />
@@ -204,6 +238,7 @@ export default function Catalogpage() {
                         type="number" 
                         name="mileageFrom" 
                         placeholder="от"
+                        min="0"
                         value={filters.mileageFrom}
                         onChange={handleFilterChange}
                     />
@@ -213,6 +248,7 @@ export default function Catalogpage() {
                         type="number" 
                         name="mileageTo"
                         placeholder="до"
+                        min="0"
                         value={filters.mileageTo}
                         onChange={handleFilterChange}
                     />
@@ -229,13 +265,8 @@ export default function Catalogpage() {
                 ))}
             </div>
 
-            <ul className="page-number-list">
-                <li><button className='page-number'>1</button></li>
-                <li><button className='page-number'>2</button></li>
-                <li><button className='page-number'>3</button></li>
-                <li><button className='page-number'>4</button></li>
-                <li><button className='page-number'>5</button></li>
-            </ul>
+
+            <PagesList onClick={handleSwitchPage} pagesNum={pageCount} curPage={curPage}/>
 
             {selectedProductId && <ProductModal productId={selectedProductId} onClose={() => setSelectedProductId(null)}/>}
         </main>

@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom"
+import Createpage from "../pages/Createpage";
 
 export default function Layout() {
     const location = useLocation(); // Получаем текущий путь
@@ -14,7 +15,7 @@ export default function Layout() {
                         <li><Link to="history">История брендов</Link></li>
                         <li><Link to="about">О нас</Link></li>
                         <li><Link to="cart">Корзина</Link></li>
-                        {location.pathname === "/catalog" && <li className="add-product-page"><a href="addProduct.html">+</a></li>}
+                        {location.pathname === "/catalog" && <li className="add-product-page"><Link to="create">+</Link></li>}
                     </ul>
                 </nav>
             </header>
