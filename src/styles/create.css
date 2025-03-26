@@ -46,3 +46,11 @@
     display: block;
     margin: 10px auto;
 }
+
+.create-description {
+    resize: vertical;
+}
+
+.disabled {
+    
+}

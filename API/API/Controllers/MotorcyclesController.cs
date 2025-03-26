@@ -1,5 +1,6 @@
 ﻿using API.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System.Xml.Linq;
 
@@ -115,6 +116,59 @@ namespace API.Controllers
                 return NotFound();
             }
             return Ok(motorcycles);
+        }
+
+
+
+        [HttpPost("create")]
+        public async Task<IStatusCodeActionResult> CreateProduct(
+            [FromForm] string name,
+            [FromForm] int dealerId,
+            [FromForm] int price,
+            [FromForm] int mileage,
+            [FromForm] string color,
+            [FromForm] string description,
+            [FromForm] int brandId,
+            [FromForm] string modelName,
+            [FromForm] IFormFile imageFile)
+        {
+            if (imageFile == null || imageFile.Length == 0)
+            {
+                return BadRequest("Файл изображения обязателен.");
+            }
+
+            // Генерируем уникальное имя файла
+            string fileName = $"{Guid.NewGuid()}_{imageFile.FileName}";
+            string filePath = Path.Combine("wwwroot/motorcycles", fileName);
+
+            Console.WriteLine(filePath);
+
+            // Сохраняем изображение на сервер
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(stream);
+            }
+
+            var motorcycle = new Motorcycle
+            {
+                Name = name,
+                DealerId = dealerId,
+                Price = price,
+                Mileage = mileage,
+                Color = color,
+                Image = fileName, // Только имя файла, путь клиент сам сформирует
+                Description = description,
+                ModelName = modelName,
+                BrandId = brandId,
+                InStock = true
+            };
+
+            Console.WriteLine(motorcycle);
+
+            _context.Add(motorcycle);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Мотоцикл создан", id = motorcycle.Id });
         }
 
 

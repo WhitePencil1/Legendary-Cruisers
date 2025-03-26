@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\controllers\\motorcyclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|d:\\projects\\web\\legendary-cruisers\\api\\api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|d:\\projects\\web\\legendary-cruisers\\api\\api\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|d:\\projects\\web\\legendary-cruisers\\api\\api\\models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|d:\\projects\\web\\legendary-cruisers\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|d:\\projects\\web\\legendary-cruisers\\api\\api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CD08E76-CFAE-4D28-93DD-C30930CFBBAB}|API\\API.csproj|solutionrelative:api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Model.cs",
+              "DocumentMoniker": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Models\\Model.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Model.cs",
+              "ToolTip": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Models\\Model.cs",
+              "RelativeToolTip": "API\\Models\\Model.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:22:19.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FileController.cs",
               "DocumentMoniker": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Controllers\\FileController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\FileController.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -55,18 +72,17 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:06:41.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T17:06:41.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Motorcycle.cs",
               "DocumentMoniker": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Models\\Motorcycle.cs",
               "RelativeDocumentMoniker": "API\\Models\\Motorcycle.cs",
               "ToolTip": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Models\\Motorcycle.cs",
               "RelativeToolTip": "API\\Models\\Motorcycle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T19:46:22.566Z",
               "EditorCaption": ""
@@ -77,9 +93,9 @@
               "Title": "MotorcyclesController.cs",
               "DocumentMoniker": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Controllers\\MotorcyclesController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\MotorcyclesController.cs",
-              "ToolTip": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Controllers\\MotorcyclesController.cs",
-              "RelativeToolTip": "API\\Controllers\\MotorcyclesController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIcAAAAmAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\Controllers\\MotorcyclesController.cs*",
+              "RelativeToolTip": "API\\Controllers\\MotorcyclesController.cs*",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAzwKUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T15:58:50.687Z",
               "EditorCaption": ""
