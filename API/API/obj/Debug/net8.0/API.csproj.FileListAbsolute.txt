@@ -62,3 +62,4 @@ D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions
 D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\MySqlConnector.dll
 D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Projects\Web\legendary-cruisers\API\API\bin\Debug\net8.0\API.staticwebassets.runtime.json

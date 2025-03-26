@@ -1,5 +1,1482 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "motorcycles/1.etcedngcq3.webp",
+      "AssetFile": "motorcycles/1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "etcedngcq3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/1.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/1.webp",
+      "AssetFile": "motorcycles/1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/2.r5eph2e65a.webp",
+      "AssetFile": "motorcycles/2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r5eph2e65a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/2.webp",
+      "AssetFile": "motorcycles/2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/3.7j7ba58p7v.webp",
+      "AssetFile": "motorcycles/3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7j7ba58p7v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/3.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/3.webp",
+      "AssetFile": "motorcycles/3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/4.0eesa1x3jq.webp",
+      "AssetFile": "motorcycles/4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0eesa1x3jq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/4.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/4.webp",
+      "AssetFile": "motorcycles/4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/5.b5d1hz6jy9.webp",
+      "AssetFile": "motorcycles/5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5d1hz6jy9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/5.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/5.webp",
+      "AssetFile": "motorcycles/5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chief.2kiib33n0a.jpg",
+      "AssetFile": "motorcycles/chief.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:41:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2kiib33n0a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/chief.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chief.jpg",
+      "AssetFile": "motorcycles/chief.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:41:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chieftain-powerplus.do3ldp8fi4.jpg",
+      "AssetFile": "motorcycles/chieftain-powerplus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:44:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "do3ldp8fi4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/chieftain-powerplus.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chieftain-powerplus.jpg",
+      "AssetFile": "motorcycles/chieftain-powerplus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:44:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/fat-bob.h6xrdnzxoa.webp",
+      "AssetFile": "motorcycles/fat-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:21:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h6xrdnzxoa"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/fat-bob.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/fat-bob.webp",
+      "AssetFile": "motorcycles/fat-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:21:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/ftr-carbon.cy36rr3no8.jpg",
+      "AssetFile": "motorcycles/ftr-carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:42:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy36rr3no8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/ftr-carbon.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/ftr-carbon.jpg",
+      "AssetFile": "motorcycles/ftr-carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:42:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_fat_bob.ln6p2sab0c.webp",
+      "AssetFile": "motorcycles/main_fat_bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ln6p2sab0c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_fat_bob.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_fat_bob.webp",
+      "AssetFile": "motorcycles/main_fat_bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_nighster.306ch3xfb3.webp",
+      "AssetFile": "motorcycles/main_nighster.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "306ch3xfb3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_nighster.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_nighster.webp",
+      "AssetFile": "motorcycles/main_nighster.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_softail_standart.oad7hat4oe.webp",
+      "AssetFile": "motorcycles/main_softail_standart.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oad7hat4oe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_softail_standart.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_softail_standart.webp",
+      "AssetFile": "motorcycles/main_softail_standart.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/pan-america.webp",
+      "AssetFile": "motorcycles/pan-america.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:29:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/pan-america.zoyz1hph0u.webp",
+      "AssetFile": "motorcycles/pan-america.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:29:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoyz1hph0u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/pan-america.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/road-glide.649g7rredo.webp",
+      "AssetFile": "motorcycles/road-glide.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:25:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "649g7rredo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/road-glide.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/road-glide.webp",
+      "AssetFile": "motorcycles/road-glide.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:25:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-bobber.jpg",
+      "AssetFile": "motorcycles/scout-bobber.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:38:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-bobber.xzwlzn2ruf.jpg",
+      "AssetFile": "motorcycles/scout-bobber.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:38:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzwlzn2ruf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/scout-bobber.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-classic.jpg",
+      "AssetFile": "motorcycles/scout-classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:39:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-classic.yz3cb5fetb.jpg",
+      "AssetFile": "motorcycles/scout-classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:39:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yz3cb5fetb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/scout-classic.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob-2020.5du1oahi7i.webp",
+      "AssetFile": "motorcycles/street-bob-2020.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:27:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5du1oahi7i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/street-bob-2020.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob-2020.webp",
+      "AssetFile": "motorcycles/street-bob-2020.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:27:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob.cl1vthshmz.webp",
+      "AssetFile": "motorcycles/street-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:23:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cl1vthshmz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag="
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/street-bob.webp"
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob.webp",
+      "AssetFile": "motorcycles/street-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:23:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag="
+        }
+      ]
+    }
+  ]
 }

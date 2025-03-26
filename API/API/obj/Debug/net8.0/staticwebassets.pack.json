@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\1.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\1.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\2.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\2.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\3.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\3.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\4.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\4.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\5.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\5.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chief.jpg",
+      "PackagePath": "staticwebassets\\motorcycles\\chief.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chieftain-powerplus.jpg",
+      "PackagePath": "staticwebassets\\motorcycles\\chieftain-powerplus.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\fat-bob.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\fat-bob.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\ftr-carbon.jpg",
+      "PackagePath": "staticwebassets\\motorcycles\\ftr-carbon.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_fat_bob.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\main_fat_bob.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_nighster.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\main_nighster.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_softail_standart.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\main_softail_standart.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\pan-america.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\pan-america.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\road-glide.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\road-glide.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-bobber.jpg",
+      "PackagePath": "staticwebassets\\motorcycles\\scout-bobber.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-classic.jpg",
+      "PackagePath": "staticwebassets\\motorcycles\\scout-classic.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob-2020.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\street-bob-2020.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\street-bob.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

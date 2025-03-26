@@ -1,12 +1,1876 @@
 {
   "Version": 1,
-  "Hash": "A5c6GKfqW+kOYxX7+ezU9WKq8ts6/mK8f4alHUBjdmk=",
+  "Hash": "eXMtUfhDI+LQwQM3Tx+m/YkjWWDrmuVPvPNdDyluBUE=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\1.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "etcedngcq3",
+      "Integrity": "nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\1.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\2.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r5eph2e65a",
+      "Integrity": "72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\2.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\3.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7j7ba58p7v",
+      "Integrity": "4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\3.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\4.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0eesa1x3jq",
+      "Integrity": "2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\4.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\5.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5d1hz6jy9",
+      "Integrity": "zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\5.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chief.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/chief#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2kiib33n0a",
+      "Integrity": "jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\chief.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chieftain-powerplus.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/chieftain-powerplus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "do3ldp8fi4",
+      "Integrity": "3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\chieftain-powerplus.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\fat-bob.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/fat-bob#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h6xrdnzxoa",
+      "Integrity": "R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\fat-bob.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\ftr-carbon.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/ftr-carbon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cy36rr3no8",
+      "Integrity": "hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\ftr-carbon.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_fat_bob.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/main_fat_bob#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ln6p2sab0c",
+      "Integrity": "8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\main_fat_bob.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_nighster.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/main_nighster#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "306ch3xfb3",
+      "Integrity": "YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\main_nighster.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_softail_standart.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/main_softail_standart#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oad7hat4oe",
+      "Integrity": "ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\main_softail_standart.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\pan-america.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/pan-america#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zoyz1hph0u",
+      "Integrity": "Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\pan-america.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\road-glide.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/road-glide#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "649g7rredo",
+      "Integrity": "JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\road-glide.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-bobber.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/scout-bobber#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xzwlzn2ruf",
+      "Integrity": "TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\scout-bobber.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-classic.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/scout-classic#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yz3cb5fetb",
+      "Integrity": "Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\scout-classic.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/street-bob#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cl1vthshmz",
+      "Integrity": "MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\street-bob.webp"
+    },
+    {
+      "Identity": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob-2020.webp",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "motorcycles/street-bob-2020#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5du1oahi7i",
+      "Integrity": "B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\motorcycles\\street-bob-2020.webp"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "motorcycles/1.etcedngcq3.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "etcedngcq3"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/1.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/2.r5eph2e65a.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r5eph2e65a"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/2.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-72zwdEGBU/gah4q3wQcwWX2ryWb3L+sg3wHwPd4tZQs="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/3.7j7ba58p7v.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7j7ba58p7v"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/3.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ziN+t5l1BEgu8GasYdKurzUFIMpSLSV/+bwtz8Rxn4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/4.0eesa1x3jq.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0eesa1x3jq"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/4.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PU1pLjorzsByvUgKQotASjj/6/6/51ySmcW0p52sAQ="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/5.b5d1hz6jy9.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5d1hz6jy9"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/5.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "283416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chief.2kiib33n0a.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chief.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2kiib33n0a"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/chief.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chief.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chief.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187703"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:41:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jgpMy/Sx5pzqIdEa7OvJ7H+M5vv33/rDXnMcJDFVRRc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chieftain-powerplus.do3ldp8fi4.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chieftain-powerplus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "do3ldp8fi4"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/chieftain-powerplus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/chieftain-powerplus.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chieftain-powerplus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/fat-bob.h6xrdnzxoa.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\fat-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h6xrdnzxoa"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/fat-bob.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/fat-bob.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\fat-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "388414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:21:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8YkC4zxFyPAqe1z+Hl/fFl8thgRTfNxG4HIDL8Y9AU="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/ftr-carbon.cy36rr3no8.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\ftr-carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy36rr3no8"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/ftr-carbon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/ftr-carbon.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\ftr-carbon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "291574"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:42:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJCkW2CRUEF2Vdpisrn0PXTF6xfdNITmyqPNpvpoEHc="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_fat_bob.ln6p2sab0c.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_fat_bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ln6p2sab0c"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_fat_bob.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_fat_bob.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_fat_bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8X9yvZhOI3MaMUgiLr1KDEYSZwg3ARDY/s7dCbiT48s="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_nighster.306ch3xfb3.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_nighster.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "306ch3xfb3"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_nighster.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_nighster.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_nighster.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YxZ6pI9CuAwTyKdQ6RiiqccSUPHKjZ9vdbxn9CHSVFY="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_softail_standart.oad7hat4oe.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_softail_standart.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oad7hat4oe"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/main_softail_standart.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/main_softail_standart.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\main_softail_standart.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 08:50:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ECixvLkw6zVmDX9UAjiGT/VLvuVDNm9YDxEyOMkc57U="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/pan-america.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\pan-america.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/pan-america.zoyz1hph0u.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\pan-america.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270860"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoyz1hph0u"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/pan-america.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y++qLkK1dPp9V3ODrTDZNATC5CUjmgVsMxgxUymEnSw="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/road-glide.649g7rredo.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\road-glide.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "649g7rredo"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/road-glide.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/road-glide.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\road-glide.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:25:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnVZrI30YfdVESBeu0N59f9XrxR4Ny29VaF6O855o9Q="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-bobber.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-bobber.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:38:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-bobber.xzwlzn2ruf.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-bobber.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:38:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzwlzn2ruf"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/scout-bobber.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTl+2nTDjUJ49C1AztBwPrv3V7NRyRL7u0I2CJMTzV4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-classic.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/scout-classic.yz3cb5fetb.jpg",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\scout-classic.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yz3cb5fetb"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/scout-classic.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Pi56K7RrEkVfqlgCUSeRVuh3tC7/vNULiq3JF3MUOp4="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob.cl1vthshmz.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:23:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cl1vthshmz"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/street-bob.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:23:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMVz02p4Ch2thv7qo3xCurAhD6jonvrJJAqbDcc/kag="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob-2020.5du1oahi7i.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob-2020.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:27:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5du1oahi7i"
+        },
+        {
+          "Name": "label",
+          "Value": "motorcycles/street-bob-2020.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I="
+        }
+      ]
+    },
+    {
+      "Route": "motorcycles/street-bob-2020.webp",
+      "AssetFile": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\street-bob-2020.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "373230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 10:27:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B6D9ST02ilvvzXeInKtLoLJ5eivVzKbFCPy4HdrzE8I="
+        }
+      ]
+    }
+  ]
 }

@@ -8,9 +8,41 @@
 .create-box {
     display: flex;
     flex-direction: column;
+
+    padding: 40px;
+    border: 1px solid black;
+    
+    width: 30%;
+    min-width: 300px;
+    
 }
 
 .create-form {
     display: flex;
+    justify-content: center;
+    
     flex-direction: column;
+    row-gap: 20px;
+}
+
+.create-header {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+.create-form input, .create-form select {
+    height: 25px;
+    border-radius: 2px;
+}
+
+.create-form button {
+    width: 85%;
+    height: 35px;
+    color: white;
+    background-color: #9c122a;
+    font-size: 16px;
+
+    display: block;
+    margin: 10px auto;
 }

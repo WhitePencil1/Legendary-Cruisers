@@ -85,7 +85,7 @@ namespace API.Controllers
                     Id = m.Id,
                     Name = m.Name,
                     Price = m.Price,
-                    Image = m.Image
+                    Image = $"/motorcycles/{m.Image}" //Ссылка на изображение на сервере
                 })
                 .Skip((page-1) * pageSize) // Пропустить `skip` элементов
                 .Take(pageSize) // Взять `take` элементов
@@ -123,11 +123,25 @@ namespace API.Controllers
         [HttpGet("catalog/product/{id}")]
         public async Task<IActionResult> GetProduct(int id)
         {
-            var motorcycle = await _context.Motorcycles
-                
+            var motorcycle = await _context.Motorcycles   
                 .Include(m => m.Model)
+                .Select(m => new Motorcycle
+                {
+                    Id = m.Id,
+                    Name = m.Name,
+                    DealerId = m.DealerId,
+                    Price = m.Price,
+                    Mileage = m.Mileage,
+                    Color = m.Color,
+                    Image = $"/motorcycles/{m.Image}",
+                    Description = m.Description,
+                    Model = m.Model,
+                    ModelName = m.ModelName,
+                    BrandId = m.BrandId,
+                    InStock = m.InStock
+                })
                 .FirstOrDefaultAsync(m => m.Id == id);
-            //.FirstOrDefaultAsync(m => m.Id == id);
+
             if (motorcycle == null)
             {
                 return NotFound();

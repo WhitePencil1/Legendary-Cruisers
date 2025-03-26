@@ -7,7 +7,7 @@ export default function ProductModal({productId, onClose}) {
     const [productData, setProductData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
-    const imgDirPath = "images/motorcycles/";
+    const imgDirPath = "https://localhost:7001";
 
     useEffect(() => {
         setLoading(true);
@@ -38,7 +38,8 @@ export default function ProductModal({productId, onClose}) {
                     <button className='close-btn' onClick={onClose}>X</button>
                     <section className="showcase">
                         <div className="product-image-box">
-                            <img src= {productData && (imgDirPath + productData.image)} alt="product image" className="product-main-image"/>
+                            {console.log(imgDirPath + productData.image)}
+                            <img src= {imgDirPath + productData.image} alt="product image" className="product-main-image"/>
                         </div>
                         <div className="product-title-box">
                             <h1 className="product-title">{productData.name}</h1>
@@ -68,14 +69,38 @@ export default function ProductModal({productId, onClose}) {
                                 <tr><th>Характеристика</th><th>Значение</th></tr>
                             </thead>
                             <tbody className="product-characteristics-body">
-                                <tr> <td>Двигатель</td> <td>{productData.model.engine}</td> </tr>
-                                <tr> <td>Рабочий объем</td> <td>{productData.model.engineVolume}, см3</td> </tr>
-                                <tr> <td>Длина</td> <td>{productData.model.length}, см</td> </tr>
-                                <tr> <td>Емкость бака</td> <td>{productData.model.tankCapacity}, см3</td> </tr>
-                                <tr> <td>Высота по сиденью</td> <td>{productData.model.seatHeight} см</td> </tr>
-                                <tr> <td>Сухая масса</td> <td>{productData.model.dryWeight} кг</td> </tr>
-                                <tr> <td>Передняя шина</td> <td>{productData.model.frontTire}</td> </tr>
-                                <tr> <td>Задняя шина</td> <td>{productData.model.rearTire}</td> </tr>
+                                <tr> 
+                                    <td>Двигатель</td>
+                                    <td>{productData.model.engine}</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Рабочий объем</td> 
+                                    <td>{productData.model.engineVolume}, см3</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Длина</td> 
+                                    <td>{productData.model.length}, см</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Емкость бака</td> 
+                                    <td>{productData.model.tankCapacity}, см3</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Высота по сиденью</td> 
+                                    <td>{productData.model.seatHeight} см</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Сухая масса</td> 
+                                    <td>{productData.model.dryWeight} кг</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Передняя шина</td> 
+                                    <td>{productData.model.frontTire}</td> 
+                                </tr>
+                                <tr> 
+                                    <td>Задняя шина</td> 
+                                    <td>{productData.model.rearTire}</td> 
+                                </tr>
                             </tbody>
                         </table>
                     </section>
