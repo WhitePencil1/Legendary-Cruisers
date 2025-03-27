@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\motorcycles\\1.webp"
     },
     {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp"
+    },
+    {
       "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\2.webp",
       "PackagePath": "staticwebassets\\motorcycles\\2.webp"
     },
@@ -21,12 +29,32 @@
       "PackagePath": "staticwebassets\\motorcycles\\5.webp"
     },
     {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp"
+    },
+    {
       "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chief.jpg",
       "PackagePath": "staticwebassets\\motorcycles\\chief.jpg"
     },
     {
       "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\chieftain-powerplus.jpg",
       "PackagePath": "staticwebassets\\motorcycles\\chieftain-powerplus.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp"
+    },
+    {
+      "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp",
+      "PackagePath": "staticwebassets\\motorcycles\\f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp"
     },
     {
       "Id": "D:\\Projects\\Web\\legendary-cruisers\\API\\API\\wwwroot\\motorcycles\\fat-bob.webp",

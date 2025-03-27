@@ -12,6 +12,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"281492"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022nt7Bs4hU7yHko5SnZ88MznqcFmawukRLwNOlg0kl7Yw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 08:50:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.huvxdxv8r9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"huvxdxv8r9"},{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="},{"Name":"label","Value":"_content/API/motorcycles/137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:31:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:31:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/1893f453-b8a3-4301-b3dd-7614231108fb_sportster.so1gnf334y.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"so1gnf334y"},{"Name":"integrity","Value":"sha256-jG\u002B8iAbk\u002BNQWAMJk3mK3SBhYUq7pBF6xMApanNDKhlA="},{"Name":"label","Value":"_content/API/motorcycles/1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"408998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jG\u002B8iAbk\u002BNQWAMJk3mK3SBhYUq7pBF6xMApanNDKhlA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jG\u002B8iAbk\u002BNQWAMJk3mK3SBhYUq7pBF6xMApanNDKhlA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"408998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jG\u002B8iAbk\u002BNQWAMJk3mK3SBhYUq7pBF6xMApanNDKhlA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:42:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/API/motorcycles/2.r5eph2e65a.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\2.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -60,6 +84,42 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"283416"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zzUIAc2dnO1YEsaHFwndQpzB/5E5mm3/Ytj0tOMtRfM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Dec 2024 08:50:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.mq8s430l18.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mq8s430l18"},{"Name":"integrity","Value":"sha256-PstWE6FJQTQY4IS0n80ZhYL9BSkq7nP30nTWNwh85\u002B4="},{"Name":"label","Value":"_content/API/motorcycles/50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"323148"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PstWE6FJQTQY4IS0n80ZhYL9BSkq7nP30nTWNwh85\u002B4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 10:10:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PstWE6FJQTQY4IS0n80ZhYL9BSkq7nP30nTWNwh85\u002B4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"323148"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PstWE6FJQTQY4IS0n80ZhYL9BSkq7nP30nTWNwh85\u002B4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 10:10:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.h54g4wxjkr.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h54g4wxjkr"},{"Name":"integrity","Value":"sha256-\u002B7IJ21hkeTzvXND4fQOWL1tUnWG9zPZLGmenEbxjMC4="},{"Name":"label","Value":"_content/API/motorcycles/57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"338868"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002B7IJ21hkeTzvXND4fQOWL1tUnWG9zPZLGmenEbxjMC4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:52:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002B7IJ21hkeTzvXND4fQOWL1tUnWG9zPZLGmenEbxjMC4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"338868"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002B7IJ21hkeTzvXND4fQOWL1tUnWG9zPZLGmenEbxjMC4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:52:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.huvxdxv8r9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"huvxdxv8r9"},{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="},{"Name":"label","Value":"_content/API/motorcycles/6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:30:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:30:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/API/motorcycles/chief.2kiib33n0a.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\chief.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -83,6 +143,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"278262"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223XZmMuk76dowYv4swdq1pctetlcUcM9h0o25AJEj1PI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 10:44:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.uhek1hdw5h.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uhek1hdw5h"},{"Name":"integrity","Value":"sha256-niTuxg6vVVKwS8RvWvgwzAjRZ26/Jx0\u002BspdtIM1C31Q="},{"Name":"label","Value":"_content/API/motorcycles/e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"378590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022niTuxg6vVVKwS8RvWvgwzAjRZ26/Jx0\u002BspdtIM1C31Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:56:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-niTuxg6vVVKwS8RvWvgwzAjRZ26/Jx0\u002BspdtIM1C31Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"378590"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022niTuxg6vVVKwS8RvWvgwzAjRZ26/Jx0\u002BspdtIM1C31Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:56:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.huvxdxv8r9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"huvxdxv8r9"},{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="},{"Name":"label","Value":"_content/API/motorcycles/f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:36:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/API/motorcycles/f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"343702"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eWAofQQtuO9mQr5TLbuHJ7\u002B2P/f7lA2h9ATp3dyq6gk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 09:36:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/API/motorcycles/fat-bob.h6xrdnzxoa.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\motorcycles\fat-bob.webp'))</AssetFile>

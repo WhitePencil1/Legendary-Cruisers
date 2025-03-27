@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import { pricePrettier } from "../utils"
+
 export default function ProductCard({motorcycle, onClick}) {
 
     // const imagePath = "images/motorcycles/"
@@ -13,7 +15,7 @@ export default function ProductCard({motorcycle, onClick}) {
 
             <div className="product-card-info">
                 <div>{motorcycle.name}</div>
-                <strong>{motorcycle.price} &#8381;</strong>
+                <strong>{pricePrettier(motorcycle.price)} &#8381;</strong>
             </div>  
         </div>
     )

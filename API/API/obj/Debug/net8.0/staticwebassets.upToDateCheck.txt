@@ -1,10 +1,17 @@
 wwwroot\motorcycles\1.webp
+wwwroot\motorcycles\137d4e8a-b170-4172-93e5-03ebcabf6c88_fatBoy.webp
+wwwroot\motorcycles\1893f453-b8a3-4301-b3dd-7614231108fb_sportster.webp
 wwwroot\motorcycles\2.webp
 wwwroot\motorcycles\3.webp
 wwwroot\motorcycles\4.webp
 wwwroot\motorcycles\5.webp
+wwwroot\motorcycles\50abe068-4a5f-4a75-9eaa-db754f829723_fatBob.webp
+wwwroot\motorcycles\57cadc10-ab2e-47b2-b37d-08d350537a53_CVO.webp
+wwwroot\motorcycles\6cf74f47-c3b1-4803-9428-dc0a8db6583c_fatBoy.webp
 wwwroot\motorcycles\chief.jpg
 wwwroot\motorcycles\chieftain-powerplus.jpg
+wwwroot\motorcycles\e4ce11c3-65bc-4ee3-86f9-95f2793b137e_Trike.webp
+wwwroot\motorcycles\f85659f7-4a5e-497d-a9f6-e9a88c2efa47_fatBoy.webp
 wwwroot\motorcycles\fat-bob.webp
 wwwroot\motorcycles\ftr-carbon.jpg
 wwwroot\motorcycles\main_fat_bob.webp

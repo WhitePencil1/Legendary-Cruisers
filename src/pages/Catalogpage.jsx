@@ -5,6 +5,7 @@ import ProductCard from '../components/ProductCard';
 import ProductModal from '../components/Productmodal';
 import SearchDatalist from '../components/SearchDatalist';
 import PagesList from '../components/PagesList';
+import { pricePrettier } from '../utils';
 
 
 export default function Catalogpage() {
@@ -82,6 +83,7 @@ export default function Catalogpage() {
 
     const handleFiltersSubmit = (e) => {
         e.preventDefault();
+        setLoading(true)
         console.log("Отправка фильтров");
         const params = Object.fromEntries(
             Object.entries(filters)
@@ -102,12 +104,16 @@ export default function Catalogpage() {
             }
         })
         .then((response) => {
+            setLoading(false)
             console.log("Результат запроса:", response.data);
             setCurPage(1);
             setPageCount(response.data.totalPages);
             setProductData(response.data.data);
         })
-        .catch((error) => console.error("Ошибка загрузки каталога:", error));
+        .catch((error) => {
+            setError(true)
+            console.error("Ошибка загрузки каталога:", error)
+        });
     }
 
     const handleSwitchPage = function(page) {
@@ -138,8 +144,9 @@ export default function Catalogpage() {
     }
 
     
-    if (loading) return <p>Загрузка...</p>;
-    if (error) return <p>Ошибка: {error}</p>;
+    // if (loading) return <p>Загрузка...</p>;
+    // if (error) return <p>Ошибка: {error}</p>;
+
     return(
         <main className="catalog">
             <form className="catalog-sidebar" onSubmit={handleFiltersSubmit}>
@@ -257,13 +264,17 @@ export default function Catalogpage() {
                 <button className="sidebar-submit" type="button" onClick={handleReset}>Сбросить</button>
             </form>
 
-
-
-            <div className="catalog-products">
-                {productData && productData.map(product => (
-                    <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
-                ))}
-            </div>
+            {error && <p className='catalog-info-message'>Ошибка: {error}</p>}
+            {loading && <p className='catalog-info-message loader'>Загрузка...</p>}
+            {
+                !loading && 
+                <div className="catalog-products">
+                    {productData && productData.map(product => (
+                        <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
+                    ))}
+                </div>
+            }
+            
 
 
             <PagesList onClick={handleSwitchPage} pagesNum={pageCount} curPage={curPage}/>

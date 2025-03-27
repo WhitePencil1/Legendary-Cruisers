@@ -78,6 +78,8 @@ namespace API.Controllers
                 query = query.Where(m => m.Mileage <= mileageTo.Value);
             }
 
+            query = query.Where(m => m.InStock == true);
+
             int totalCount = await query.CountAsync();
 
             var cards = await query

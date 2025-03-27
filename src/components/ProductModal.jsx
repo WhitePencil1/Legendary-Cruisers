@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import axios from "axios";
+import { pricePrettier } from '../utils';
 import '../styles/product.css'
 
 export default function ProductModal({productId, onClose}) {
@@ -7,6 +8,7 @@ export default function ProductModal({productId, onClose}) {
     const [productData, setProductData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
+    const [isOnCart, setIsOnCart] = useState(false);
     const imgDirPath = "https://localhost:7001";
 
     useEffect(() => {
@@ -22,6 +24,11 @@ export default function ProductModal({productId, onClose}) {
             setError(true);
         });
     }, [productId])
+
+    const handleAddCart = function() {
+        setIsOnCart(true);
+        console.log(productData);
+    }
 
     if (loading) {
         return(
@@ -43,7 +50,7 @@ export default function ProductModal({productId, onClose}) {
                         </div>
                         <div className="product-title-box">
                             <h1 className="product-title">{productData.name}</h1>
-                            <div className="product-price">{productData.price} &#8381;</div>
+                            <div className="product-price">{pricePrettier(productData.price)} &#8381;</div>
     
                             <ul className="product-parameters-list">
                                 <li className="product-parameter">Цвет<br/><span className="product-parameter-value color">{productData.color}</span></li>
@@ -55,7 +62,9 @@ export default function ProductModal({productId, onClose}) {
                                 <p>Двигатель <span className="engine">{productData.model.engine}</span></p>
                                 <p>Емкость <span className="tank"></span>{productData.model.tankCapacity} см3</p>
                             </div>
-                            <button className="product-submit-btn">В корзину</button>
+                            <button onClick={handleAddCart} disabled={isOnCart} className={isOnCart ? "product-submit-btn btn-clicked" : "product-submit-btn"}>
+                                {isOnCart ? "Добавлено" : "В корзину"}
+                            </button>
                         </div>
                     </section>
     
