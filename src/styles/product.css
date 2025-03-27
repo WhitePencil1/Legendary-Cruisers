@@ -61,6 +61,7 @@
 
 .product-main-image {
     width: 100%;
+    
     border-radius: 5%;
     object-fit: cover;
 }
@@ -108,14 +109,13 @@
 }
 
 .product-submit-btn {
-    padding: 8px 100px;
+    padding: 10px 0;
     font-size: 20px;
+    width: 50%;
 }
-
 
 .btn-clicked {
     background-color: #a7a7a7;
-    
 }
 
 .description-title {
@@ -127,8 +127,6 @@
     height: 60px;
     color: white;
 }
-
-
 
 .product-characteristics {
     width: 30vw;
@@ -171,3 +169,5 @@
 .product-characteristics tbody tr:nth-child(even){
 	background: #f8f8f8!important;
 }
+
+

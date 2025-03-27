@@ -15,7 +15,7 @@ export default function Catalogpage() {
     const [pageCount, setPageCount] = useState(0);
 
     const [selectedProductId, setSelectedProductId] = useState(null)
-    const [productData, setProductData] = useState(null)
+    const [productData, setProductData] = useState([])
     const [error, setError] = useState(null)
     const [loading, setLoading] = useState(null)
 
@@ -143,10 +143,6 @@ export default function Catalogpage() {
         .catch((error) => console.error("Ошибка загрузки каталога:", error));
     }
 
-    
-    // if (loading) return <p>Загрузка...</p>;
-    // if (error) return <p>Ошибка: {error}</p>;
-
     return(
         <main className="catalog">
             <form className="catalog-sidebar" onSubmit={handleFiltersSubmit}>
@@ -264,15 +260,26 @@ export default function Catalogpage() {
                 <button className="sidebar-submit" type="button" onClick={handleReset}>Сбросить</button>
             </form>
 
+           
             {error && <p className='catalog-info-message'>Ошибка: {error}</p>}
-            {loading && <p className='catalog-info-message loader'>Загрузка...</p>}
-            {
-                !loading && 
-                <div className="catalog-products">
-                    {productData && productData.map(product => (
-                        <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
-                    ))}
-                </div>
+            {loading ? 
+                <p className='catalog-info-message loader'>Загрузка...</p> 
+                :
+                (productData.length !== 0 ? 
+                    <div className="catalog-products">
+                        {
+                            productData.map(product => (
+                                <ProductCard motorcycle={product} key={product.id} onClick={() => {setSelectedProductId(product.id)}}/>
+                            ))
+                        }
+                    </div>
+                    : 
+                    <div className='catalog-info-message'>
+                        Товары для указанных фильтров не найдены
+                    </div>
+                    
+                )
+                
             }
             
 

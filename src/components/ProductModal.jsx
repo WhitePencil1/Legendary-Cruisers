@@ -18,6 +18,18 @@ export default function ProductModal({productId, onClose}) {
             console.log(response.data);
             setProductData(response.data)
             setLoading(false);
+
+            let storage = localStorage.getItem("cart");
+            let parsedStorage = JSON.parse(storage);
+            console.log(parsedStorage)
+
+            parsedStorage.forEach(item => {
+                console.log(item);
+                item.id === response.data.id && setIsOnCart(true);
+            })
+
+            // console.log(checkIdInLocalStorage(productData.id, "cart"));
+
         })
         .catch((error) => {
             console.log("Ошибка загрузки модалки!");
@@ -27,7 +39,24 @@ export default function ProductModal({productId, onClose}) {
 
     const handleAddCart = function() {
         setIsOnCart(true);
-        console.log(productData);
+
+        let cartItem = {
+            "id" : productData.id,
+            "name" : productData.name,
+            "price" : productData.price,
+            "image" : productData.image,
+            "dealerId" : productData.dealerId,
+            "inStock" : productData.inStock
+        }
+
+
+        let cart = localStorage.getItem("cart")
+        const parsedCart = cart ? JSON.parse(cart) : []
+        parsedCart.push(cartItem)
+        
+        localStorage.setItem("cart", JSON.stringify(parsedCart))
+
+        console.log("В корзину добавлен объект: ", localStorage.getItem("cart"));
     }
 
     if (loading) {
@@ -45,7 +74,6 @@ export default function ProductModal({productId, onClose}) {
                     <button className='close-btn' onClick={onClose}>X</button>
                     <section className="showcase">
                         <div className="product-image-box">
-                            {console.log(imgDirPath + productData.image)}
                             <img src= {imgDirPath + productData.image} alt="product image" className="product-main-image"/>
                         </div>
                         <div className="product-title-box">

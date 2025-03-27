@@ -1,72 +1,65 @@
+import { useEffect, useState } from 'react'
 import '../styles/cart.css'
+import CartItem from '../components/CartItem'
+import { pricePrettier } from '../utils';
 
 export default function Cartpage() {
+
+    const [cartItems, setCartItems] = useState([]);
+
+    const [totalPrice, setTotalPrice] = useState(0);
+    const [ableToBuy, setAbleToBuy] = useState(false);
+
+    useEffect(() => {
+        let cart = localStorage.getItem("cart");
+        const parsedCart = JSON.parse(cart);
+        setCartItems(parsedCart)
+        const totalSum = parsedCart.reduce((total, cartItem) => total + cartItem.price, 0);
+        setTotalPrice(totalSum)
+    }, [])
+
+    useEffect(() => {
+        if(cartItems.length === 0) {
+            setAbleToBuy(false)
+        } else {
+            setAbleToBuy(true)
+        }
+        
+        const newTotalSum = cartItems.reduce((total, cartItem) => total + cartItem.price, 0);
+        setTotalPrice(newTotalSum);
+    }, [cartItems])
+    
+
     return(
         <main className="cart">
             <h1>Корзина</h1>
-            <table className="cart-items">
-                <tbody>
-                    <tr className="cart-item">
-                        <td><img className="cart-item-img" src="img/motorcycles/1.webp" alt="Motorcycle"/></td>
-                        <td>Harley-Davidson FXDR 114 (Vivid Black)</td>
-                        <td><span className="cart-item-unit-price">2 550 000</span> &#8381;/шт</td>
-                        <td>
-                            <input className="cart-item-count" type="number" value="1" min="1"/>
-                        </td>
 
-                        <td>
-                            <b>
-                                <span className="cart-item-price-total">2 550 000</span> &#8381;
-                            </b>
-                        </td>
-                        <td><button className="cart-item-btn-delete">X</button></td>
-                    </tr>
-
-                    <tr className="cart-item">
-                        <td><img className="cart-item-img" src="img/motorcycles/2.webp" alt="Motorcycle"/></td>
-                        <td>CVO Road Glide Harley-Davidson (Blue Steel) 2022 c НДС!</td>
-                        <td><span className="cart-item-unit-price">4 950 000</span> &#8381;/шт</td>
-                        <td>
-                            <input className="cart-item-count" type="number" value="1" min="1"/>
-                        </td>
-                        <td>
-                            <b>
-                                <span className="cart-item-price-total">4 550 000</span> &#8381;
-                            </b>
-                        </td>
-                        <td><button className="cart-item-btn-delete">X</button></td>
-                    </tr>
-
-                    <tr className="cart-item">
-                        <td><img className="cart-item-img" src="img/motorcycles/3.webp" alt="Motorcycle"/></td>
-                        <td>Harley-Davidson FXDR 114 (Vivid Black)</td>
-                        <td><span className="cart-item-unit-price">4 950 000</span> &#8381;/шт</td>
-                        <td>
-                            <input className="cart-item-count" type="number" value="1" min="1"/>
-                        </td>
-                        <td>
-                            <b>
-                                <span className="cart-item-price-total">3 550 000</span> &#8381;
-                            </b>
-                        </td>
-                        <td><button className="cart-item-btn-delete">X</button></td>
-                    </tr>
-                </tbody>
-                
-            </table>
+            {
+                cartItems.length === 0 ? 
+                (   
+                    <div className='clear-cart-title'>
+                        Ваша корзина пустует!
+                    </div>
+                ) : 
+                (
+                    <table className="cart-items">
+                        <tbody>
+                            {cartItems.map(item => (
+                                <CartItem itemData={item} key={item.id} setCartItems={setCartItems}/>
+                            ))}
+                        </tbody>
+                    </table>
+                )
+            }
 
             <div className="cart-submit-container">
-                <div className="cart-submit-row">
-                    <span>Товары</span>
-                    <b className="items-total-count">0</b>
-                </div>
                 
                 <div className="cart-submit-row">
-                    <span>Итого:</span>
-                    <b><span className="total-price">0</span> &#8381;</b>
+                    <span>Итоговая стоимость:</span>
+                    <b><span className="total-price">{pricePrettier(totalPrice)}</span> &#8381;</b>
                 </div>
                 
-                <button className="cart-submit-btn">Оформить заказ</button>
+                <button className={ableToBuy ? "cart-submit-btn" : "cart-submit-btn btn-clicked"} disabled={!ableToBuy}>Оформить заказ</button>
             </div>
         </main>
     )

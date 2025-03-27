@@ -11,5 +11,4 @@ function pricePrettier(price) {
 }
 
 
-
 export {pricePrettier}

@@ -113,6 +113,8 @@ namespace API.Controllers
                 .Where(m => EF.Functions.Like(m!, $"%{name}%"))
                 .ToListAsync();
 
+            Console.WriteLine(motorcycles.Count);
+
             if (motorcycles == null || motorcycles.Count == 0)
             {
                 return NotFound();
@@ -134,10 +136,6 @@ namespace API.Controllers
             [FromForm] string modelName,
             [FromForm] IFormFile imageFile)
         {
-
-            Console.WriteLine($"Name: {name}, DealerId: {dealerId}, Price: {price}, Mileage: {mileage}");
-            Console.WriteLine($"Color: {color}, Description: {description}, ModelName: {modelName}, BrandId: {brandId}, InStock: {true}");
-            Console.WriteLine($"ImageFile: {imageFile?.FileName}");
 
 
             if (imageFile == null || imageFile.Length == 0)

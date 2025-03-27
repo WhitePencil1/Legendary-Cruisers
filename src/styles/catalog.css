@@ -97,6 +97,8 @@
 .product-card-image {
     height: 265px;
     width: 80%;
+    min-width: 260px;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 10%;
 }
@@ -145,6 +147,7 @@
     height: 100px;
     font-size: 20px;
     font-weight: bold;
+
 }
 
 .loader::after {
