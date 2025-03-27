@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 100px;
+    
 }
 
 
@@ -22,7 +23,7 @@
     justify-content: center;
     
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 25px;
 }
 
 .create-header {
@@ -31,9 +32,11 @@
 }
 
 
-.create-form input, .create-form select {
+.create-form input, .create-form select, .create-form textarea {
     height: 25px;
     border-radius: 2px;
+    font-size: 14px;
+
 }
 
 .create-form button {
@@ -51,6 +54,15 @@
     resize: vertical;
 }
 
-.disabled {
-    
+.create-result {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+}
+
+.done {
+    color: rgb(32, 131, 32);
 }

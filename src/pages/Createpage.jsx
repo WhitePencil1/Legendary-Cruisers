@@ -21,41 +21,34 @@ export default function Createpage() {
         2: ["Bagger", "Chief", "Dark Horse", "FTR", "Scout", "Touring"]
     }
 
-    const TEST_DATA = {
-        "name" : "Мотоцикл Harley-Davidson Fat Boy (120th Anniversary) 2023 ",
-        "price" : 4650000,
-        "mileage" : 100,
-        "color" : "Красный",
-        "brandId" : 1,
-        "modelName" : "Softail",
-        "dealerId" : 2,
-        "description" : "Новенький, сочный красный",
-    }
 
     const [formState, setFormState] = useState({
         "name" : "",
-        "price" : 0,
-        "mileage" : 0,
+        "price" : "",
+        "mileage" : "",
         "color" : "",
-        "brandId" : null,
-        "modelName" : null,
-        "dealerId" : null,
-        "description" : null,
+        "brandId" : "",
+        "modelName" : "",
+        "dealerId" : "",
+        "description" : "",
     });
 
-    useEffect(() => {setFormState(TEST_DATA)}, [])
 
     const [selectedFile, setSelectedFile] = useState(null);
+    const [createStatus, setCreateStatus] = useState(0);
 
     const handleOnChange = function(e) {
-        const { name, value} = e.target;
-        setFormState({...formState, [name] : value})
+        const { name, value, type} = e.target;
+        setCreateStatus(null)
+        setFormState({
+            ...formState, 
+            [name] : type==="number" ? Number(value) : value})
     }
 
     const handleSubmit = async function() {
         event.preventDefault();
         const formData = new FormData();
-        Object.entries(formState).forEach((key, value) => {
+        Object.entries(formState).forEach(([key, value]) => {
             formData.append(key, value)
         })
 
@@ -64,13 +57,27 @@ export default function Createpage() {
         }
         console.log("Отправляемый объект: ", formData)
 
-        const response = await fetch("https://localhost:7001/api/motorcycles/create", {
-            method: "POST",
-            body: formData,
-        });
-    
-        const result = await response.json();
-        console.log(result);
+
+        try {
+            const response = await axios.post("https://localhost:7001/api/motorcycles/create", formData);
+            console.log("Успешно создано:", response.data);
+            console.log(response);
+            setFormState({
+                "name" : "",
+                "price" : "",
+                "mileage" : "",
+                "color" : "",
+                "brandId" : "",
+                "modelName" : "",
+                "dealerId" : "",
+                "description" : "",
+            })
+            response.status === 200 ? setCreateStatus(200) : setCreateStatus(404)
+            
+        } catch (error) {
+            console.error("Ошибка при отправке данных:", error);
+            setCreateStatus(false)
+        }
     }
 
 
@@ -83,6 +90,7 @@ export default function Createpage() {
                         type="text" 
                         placeholder="Введите название"
                         name="name"
+                        form="create-form"
                         className="create-form-elem"
                         onChange={handleOnChange}
                         value={formState.name}
@@ -114,6 +122,7 @@ export default function Createpage() {
                         type="text" 
                         placeholder="Введите цвет"
                         name="color"
+                        id="color"
                         className="create-form-elem"
                         value={formState.color}
                         onChange={handleOnChange}
@@ -125,7 +134,7 @@ export default function Createpage() {
                         name="brandId" 
                         id="brandId" 
                         form="create-form"
-                        value={formState.brandId}
+                        value={formState.brandId || ""} // Гарантируем строку вместо null
                         onChange={handleOnChange} 
                         required
                     >
@@ -140,11 +149,12 @@ export default function Createpage() {
                         name="modelName" 
                         id="model" 
                         form="create-form"
+                        value={formState.modelName || ""}
                         onChange={handleOnChange} 
                         required 
-                        disabled={formState.brandId === null}
+                        disabled={!formState.brandId}
                     >
-                        <option value="" selected>Выберите модель мотоцикла</option>
+                        <option value="" disabled selected>Выберите модель мотоцикла</option>
                         {
                             formState.brandId && 
                             models[formState.brandId].map((modelName => (
@@ -157,14 +167,14 @@ export default function Createpage() {
 
                     <select 
                         className="create-form-elem" 
-                        defaultValue={'DEFAULT'} 
                         name="dealerId" 
                         id="dealer" 
                         form="create-form" 
+                        value={formState.dealerId || ""}
                         onChange={handleOnChange}
                         required
                     >
-                        <option value="DEFAULT" disabled selected>Выберите дилера мотоцикла</option>
+                        <option value="" disabled selected>Выберите дилера мотоцикла</option>
                         {Object.keys(dealers).map((dealerKey => (
                             <option key={dealerKey} value={dealerKey}>{dealers[dealerKey]}</option>
                         )))}
@@ -183,11 +193,14 @@ export default function Createpage() {
 
                     <input 
                         type="file" 
-                        name="imageFile"
-                        accept="image/"    
-                        onChange={(e) => setSelectedFile(e.value)}
+                        name="imageFile"   
+                        onChange={(e) => setSelectedFile(e.target.files[0])}
                     />
                     <button type="submit">Добавить</button>
+                    <div className={createStatus === 200 ? "create-result done" : "create-result error"}>
+                        {createStatus === 200 && "Товар успешно добавлен"}
+                        {createStatus === 404 && "Возникла ошибка при добавлении товара"}
+                    </div>
                 </form>
             </div>
         </main>
