@@ -72,11 +72,11 @@ export default function Createpage() {
                 "dealerId" : "",
                 "description" : "",
             })
-            response.status === 200 ? setCreateStatus(200) : setCreateStatus(404)
+            response.status === 200 && setCreateStatus(200)
             
         } catch (error) {
             console.error("Ошибка при отправке данных:", error);
-            setCreateStatus(false)
+            setCreateStatus(400)
         }
     }
 
@@ -99,10 +99,11 @@ export default function Createpage() {
 
                     <input 
                         type="number" 
-                        placeholder="Введите цену"
+                        placeholder="Введите цену, руб"
                         name="price"
                         className="create-form-elem"
-                        min="0"
+                        min="1"
+                         
                         value={formState.price}
                         onChange={handleOnChange}
                         required
@@ -110,12 +111,14 @@ export default function Createpage() {
 
                     <input 
                         type="number" 
-                        placeholder="Введите пробег"
+                        placeholder="Введите пробег, км"
                         name="mileage"
                         className="create-form-elem"
                         min="0"
+                    
                         value={formState.mileage}
                         onChange={handleOnChange}
+                        required
                     />
 
                     <input 
@@ -189,17 +192,19 @@ export default function Createpage() {
                         cols="33"
                         onChange={handleOnChange}
                         value={formState.description}
+                        required
                     />
 
                     <input 
                         type="file" 
                         name="imageFile"   
                         onChange={(e) => setSelectedFile(e.target.files[0])}
+                        required
                     />
                     <button type="submit">Добавить</button>
                     <div className={createStatus === 200 ? "create-result done" : "create-result error"}>
                         {createStatus === 200 && "Товар успешно добавлен"}
-                        {createStatus === 404 && "Возникла ошибка при добавлении товара"}
+                        {createStatus === 400 && <div>Возникла ошибка при добавлении товара <br /> Пожалуйста, убедитесь в правильности введенных данных</div>}
                     </div>
                 </form>
             </div>

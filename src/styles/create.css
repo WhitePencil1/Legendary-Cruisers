@@ -32,11 +32,15 @@
 }
 
 
-.create-form input, .create-form select, .create-form textarea {
+.create-form input, .create-form select {
     height: 25px;
     border-radius: 2px;
+    padding: 0;
     font-size: 14px;
+}
 
+.create-form select {
+    height: 29px;
 }
 
 .create-form button {
@@ -52,11 +56,13 @@
 
 .create-description {
     resize: vertical;
+    font-size: 14px;
 }
 
 .create-result {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .error {
